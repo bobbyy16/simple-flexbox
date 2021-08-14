@@ -1,0 +1,53 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#container {
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#container div{
+    width: 200px;
+    height: 200px;
+}
+
+div:nth-child(3){
+    align-self:flex-end;
+}
+div:nth-child(2){
+    align-self: center;
+}
+div:nth-child(4){
+    align-self: center;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+}
+
+main .sidenav{
+    background-color: #693063;
+    flex: 1;
+}
+main .maincontent{
+    background-color: #80ffdb;
+    flex: 1;
+}
+
+h2{
+    text-align: center;
+}
